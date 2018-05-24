@@ -4,7 +4,7 @@
   "description": "Test project for testing api endpoint",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/corokanto/endpoint-sample/issues"
   },
-  "homepage": "https://github.com/corokanto/endpoint-sample#readme"
+  "homepage": "https://github.com/corokanto/endpoint-sample#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3"
+  }
 }
