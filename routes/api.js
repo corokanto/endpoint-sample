@@ -9,4 +9,7 @@ var apiController = require('../controllers/apiController');
 /* GET  */
 router.get('/', apiController.index);
 
+/* POST */
+router.post('/add', apiController.add);
+
 module.exports = router;
