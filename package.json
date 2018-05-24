@@ -1,0 +1,19 @@
+{
+  "name": "endpoint-sample",
+  "version": "1.0.0",
+  "description": "Test project for testing api endpoint",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/corokanto/endpoint-sample.git"
+  },
+  "author": "Olivier Deknop",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/corokanto/endpoint-sample/issues"
+  },
+  "homepage": "https://github.com/corokanto/endpoint-sample#readme"
+}
